@@ -36,12 +36,10 @@
   margin-right: 330px;
 }
 .container {
-  max-width: 1200px;
+  width: 906px;
   margin: 0 auto;
 }
 .first-line {
-  margin-left: 148px;
-  margin-right: 148px;
   margin-bottom: 130px;
 
   display: flex;
@@ -79,16 +77,12 @@
   line-height: normal;
 }
 .second-line {
-  margin-left: 148px;
-  margin-right: 148px;
   margin-bottom: 130px;
 
   display: flex;
   gap: 65px;
 }
 .third-line {
-  margin-left: 148px;
-  margin-right: 148px;
   margin-bottom: 130px;
 
   display: flex;
