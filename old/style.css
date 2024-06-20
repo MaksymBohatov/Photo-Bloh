@@ -1,0 +1,122 @@
+:root {
+  --main: #626262;
+  --general-subtitle: #b4ad9e;
+  --nav: #7d7d7d;
+  --hover: #03a9f4;
+}
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.navlink {
+  text-decoration: none;
+
+  color: var(--nav);
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navlink:hover {
+  color: var(--hover);
+}
+.navbar__navlist {
+  margin-top: 70px;
+  margin-bottom: 92px;
+
+  list-style: none;
+  display: flex;
+  gap: 99px;
+}
+.lifestylenav {
+  margin-left: 315px;
+}
+.travelnav {
+  margin-right: 330px;
+}
+.container {
+  width: 906px;
+  margin: 0 auto;
+}
+.first-line {
+  margin-bottom: 130px;
+
+  display: flex;
+  gap: 65px;
+}
+.general_subtitle {
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+  color: var(--general-subtitle);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.general_title {
+  margin-bottom: 40px;
+
+  color: var(--main);
+  font-family: Playfair Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.lorem {
+  width: 420px;
+
+  color: var(--main);
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.second-line {
+  margin-bottom: 130px;
+
+  display: flex;
+  gap: 65px;
+}
+.third-line {
+  margin-bottom: 130px;
+
+  display: flex;
+  gap: 65px;
+}
+.btn_div {
+  position: relative;
+  text-align: center;
+}
+.btn_txt {
+  color: var(--main);
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  cursor: pointer;
+  padding: 20px 48px;
+  background: none;
+  border: 1px solid #626262;
+
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  color: var(--main);
+  margin-bottom: 20px;
+}

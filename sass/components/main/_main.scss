@@ -1,0 +1,54 @@
+@import "../../colors";
+@import "../../mixin";
+.main__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 65px;
+  row-gap: 130px;
+}
+.main__block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.main__block-subtitle {
+  @include main(map-get($colors, "general-subtitle"), Ubuntu, 14px, 300)
+    margin: 62px 0 32px;
+}
+.main__block-title {
+  @include maintxt(map-get($colors, "main"), "Playfair Display",30px, 400)
+
+  margin-bottom: 40px;
+}
+.main__block-descr {
+  width: 420px;
+
+  // color: map-get($colors, "main");
+  // font-family: "Playfair Display";
+  // font-size: 14px;
+  // font-style: normal;
+  // font-weight: 400;
+  // line-height: normal;
+
+  @include maintxt (map-get($colors, "main"), "Playfair Display")
+}
+.btn-block {
+  display: flex;
+  justify-content: center;
+  margin: 94px 0 66px 0;
+  &__btn {
+    padding: 20px 48px;
+    border: 1px solid map-get($colors, "main");
+    cursor: pointer;
+    background: transparent;
+
+    &__btn-txt {
+      color: map-get($colors, "main");
+      font-family: "Playfair Display";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

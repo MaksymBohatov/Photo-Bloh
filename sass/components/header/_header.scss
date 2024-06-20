@@ -1,0 +1,19 @@
+@import "../../colors";
+@import "../../mixin";
+.header {
+  padding: 71px 0 92px 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  gap: 99px;
+
+  &__link {
+    @include maintxt(map-get($colors, "nav"), "Playfair Display", 16px, 400);
+
+    transition: color 250ms linear;
+  }
+  &__link:hover {
+    color: map-get($colors, 'hover' );
+  }
+}
