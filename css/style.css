@@ -11,7 +11,7 @@
   color: #7d7d7d;
   font-family: "Playfair Display";
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
   line-height: normal;
   transition: color 250ms linear;
@@ -33,7 +33,18 @@
   align-items: start;
 }
 
+.retina {
+  width: 420px;
+  height: 280px;
+}
+
 .main__block-subtitle {
+  color: #b4ad9e;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: normal;
   margin: 62px 0 32px;
 }
 
@@ -41,8 +52,8 @@
   color: #626262;
   font-family: "Playfair Display";
   font-size: 30px;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   line-height: normal;
   margin-bottom: 40px;
 }
@@ -52,8 +63,8 @@
   color: #626262;
   font-family: "Playfair Display";
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
   line-height: normal;
 }
 
@@ -68,7 +79,8 @@
   cursor: pointer;
   background: transparent;
 }
-.btn-block__btn__btn-txt {
+
+.btn-block__btn-txt {
   color: #626262;
   font-family: "Playfair Display";
   font-size: 14px;
@@ -394,4 +406,4 @@ template {
 
 a {
   text-decoration: none;
-}
+}/*# sourceMappingURL=style.css.map */
